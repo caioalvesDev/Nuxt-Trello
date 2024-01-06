@@ -19,7 +19,7 @@ const {
         </p>
         <NuxtImg src="/img/boards.png" class="w-10/12 mx-auto block" />
         <UButton class="mt-4" block :loading="isLoading" @click="subscribe"
-          >Inscreva-se por apenas R$ 14.99/m</UButton
+          >Inscreva-se por apenas R$ 4.99/m</UButton
         >
       </div>
     </UModal>
