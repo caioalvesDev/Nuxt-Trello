@@ -1,137 +1,74 @@
-# Nuxt Trello SaaS (nrello)
+# Nuxt Trello SaaS (NuxTrello)
 
-Nuxtrello is a full-stack web application inspired by Trello. This project is built using Nuxt 3, MongoDB, and Tailwind CSS, focusing on creating an efficient, user-friendly task management and organization tool.
+NuxTrello é um aplicativo web full-stack inspirado no Trello. Este projeto é construído usando Nuxt 3, MongoDB e Tailwind CSS, com foco na criação de uma ferramenta de organização e gerenciamento de tarefas eficiente e fácil de usar.
 
 ## Topics
 
-### Introduction
+### Introdução
 
-- Overview
-- Project Demo
-- Project Data model
+- Visão geral
+- Demonstração do projeto
+- Modelo de dados do projeto
 
-### Project Setup
+### Configuração do projeto
 
-- Installing Nuxt 3
-- Adding Required Dependencies
-- Connecting to MongoDB
-- Creating basic layout
+- Instalando o Nuxt3
+- Adicionando Dependências Necessárias
+- Conectando-se ao MongoDB
+- Criando layout básico
 
-### User Authentication
+### Autenticação de usuário
 
-- Creating User Model
-- Creating User API Routes
-- Creating User Authentication API Routes
-- Creating User Authentication Pages
+- Criando modelo de usuário
+- Criando rotas de API de usuário
+- Criando rotas de API de autenticação de usuário
+- Criando páginas de autenticação de usuário
 
-### Boards Resource
+### Recurso de Boards
 
-- Creating Board Model
-- Creating Board API Routes
-- Creating Board Pages
-- Creating Image Picker Component
+- Criando modelo de board
+- Criando rotas de API de board
+- Criação de páginas de board
+- Criando Componente Seletor de Imagens
 
-### Lists Resource
+### Listas de recurso
 
-- Creating List Model
-- Creating List API Routes
-- Creating List Pages
-- Adding List Editor
+- Criando modelo de lista
+- Criando rotas de API de lista
+- Criando páginas de lista
+- Adicionando Editor de Lista
 - Adding Drag and Drop Functionality
 
-### Card Resource
+### Recurso de card
 
-- Creating Card Model
-- Creating Card API Routes
-- Creating Card Pages
-- Adding Rich Editor
-- Adding Drag and Drop Functionality
+- Criando modelo de cartão
+- Criando rotas de API de cartão
+- Criando páginas de cartão
+- Adicionando Editor Rico
+- Adicionando funcionalidade de arrastar e soltar
 
-### SaaS Features
+### Recursos SaaS
 
-- Modify User Model for SaaS
-- Integrate Stripe
-- Create essential SaaS API endpoints
-- Create `useSubscription` composable
-- Design payment modals
+- Em desenvolvimento
 
-### Deployment
-
-- Deploying to Vercel/Netlify/Digital Ocean
-
-<hr>
-
-## Features
-
-- **Drag and Drop Interface**: Easy-to-use, intuitive interface for managing tasks.
-- **User Authentication**: Secure user authentication and authorization using JWT.
-- **SAAS Features**: Create and manage multiple boards, lists, and tasks in premium plan. SaaS feature is implemented using Stripe.
-- **Responsive Design**: Fully responsive web design for a seamless experience across different devices.
-- **Advanced Topics**: Covers advanced concepts like state management, API integration, and more.
-
-## Getting Started
-
-### Packages Used
-
-```
-bcryptjs stripe vuedraggable@next next-auth@4.21.1 @vueup/vue-quill
-```
-
-#### Dev Dependencies
-
-```
-@sidebase/nuxt-auth @nuxt/ui @sidebase/nuxt-auth nuxt-server-utils mongoose zod
-```
-
-### Prerequisites
-
-- Basic of Javascript
-- MongoDB
 
 ### Installation
 
-1. Clone the repository:
+1. Clone o repositório:
    ```
-   git clone https://github.com/jahidanowar/nuxt-trello.git
+   git clone https://github.com/caioalvesDev/Nuxt-Trello.git
    ```
-2. Navigate to the project directory:
+2. Navegue até o diretório do projeto:
    ```
-   cd nuxt-trello
+   cd Nuxt-Trello
    ```
-3. Install dependencies:
+3. Instale dependências:
    ```
    pnpm install
    ```
-4. Start the development server:
+4. Inicie o servidor de desenvolvimento:
    ```
    pnpm run dev
    ```
 
-## Usage
 
-After starting the development server, the application will be available at `http://localhost:3000`.
-
-## Contributing
-
-Contributions are welcome! Please read our contributing guidelines for details on how to submit pull requests to the project.
-
-## Deployment
-
-Vercel deployment is already covered in the video.
-
-For digital ocean deployment, follow the [Digital Ocean Deployment Guide](https://www.youtube.com/watch?v=hANbHC90xug&ab_channel=JahidAnowar).
-
-## Contributions & Issues
-
-Please feel free to raise an issue for suggestions or bugs. You can ,essage me on twitter [@jahidDev](https://twitter.com/jahidDev).
-
-## License
-
-> _The project is released under the WTFPL2 [Do What Ever You Want To Public License](LICENSE)._
-
-<hr>
-
-> [jahid.dev](https://jahid.dev) &nbsp;&middot;&nbsp;
-> YouTube [@jahidanowar](https://jahid.dev/go/yt) &nbsp;&middot;&nbsp;
-> Twitter [@jahidDev](https://jahid.dev/go/tt) &nbsp;&middot;&nbsp;
-> Instagram [@jahidDev](https://jahid.dev/go/ig)
