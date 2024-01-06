@@ -61,8 +61,8 @@ async function handleSubmit(e: FormSubmitEvent<z.output<typeof ListSchema>>) {
 
     useToast().add({
       color: "green",
-      title: "Success",
-      description: "List created successfully",
+      title: "Sucesso",
+      description: "Lista criada com sucesso",
     });
     props.onCreate?.();
   } catch (e: any) {
@@ -78,11 +78,11 @@ async function handleSubmit(e: FormSubmitEvent<z.output<typeof ListSchema>>) {
 </script>
 <template>
   <UForm :state="formState" :schema="ListSchema" @submit="handleSubmit">
-    <UFormGroup name="name" label="List Name" class="mb-4">
+    <UFormGroup name="name" label="Nome da lista" class="mb-4">
       <UInput type="text" name="name" v-model="formState.name" />
     </UFormGroup>
     <UButton type="submit" :loading="isLoading" color="primary" block>
-      {{ type === "create" ? "Create list" : "Update list" }}
+      {{ type === "create" ? "Criar lista" : "Atualizar lista" }}
     </UButton>
   </UForm>
 </template>

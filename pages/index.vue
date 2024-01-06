@@ -36,7 +36,7 @@ watchEffect(() => {
 
     <template #actions>
       <UButton size="xs" @click="showCreateBoard = !showCreateBoard"
-        >Criar novo board</UButton
+        >Criar nova board</UButton
       >
     </template>
 
