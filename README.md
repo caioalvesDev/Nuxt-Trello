@@ -2,6 +2,9 @@
 
 NuxTrello é um aplicativo web full-stack inspirado no Trello. Este projeto é construído usando Nuxt 3, MongoDB e Tailwind CSS, com foco na criação de uma ferramenta de organização e gerenciamento de tarefas eficiente e fácil de usar.
 
+## Hospedado na [Vercel](https://vercel.com/)
+[NuxTrello](https://nuxt-trello-app.vercel.app/auth/signin?callbackUrl=https://nuxt-trello-app.vercel.app/&error=undefined)
+
 ## Topics
 
 ### Introdução
